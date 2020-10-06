@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #666666;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    color: #536B78;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    border-bottom: solid;
+  }
+  
+  .lead {
+    padding-top: 10px;
+  }
+  
+  .description{
+    margin: 10px;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid #CEE5F2;
+  }
+  
+  .hour {
+    border-right: 1px solid #CEE5F2;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .past {
+    background-color: #476b8d;
+    color: white;
+  }
+  
+  .present {
+    background-color: #689dce;
+    color: white;
+  }
+  
+  .future {
+    background-color: #ffffff;
+  }
+  
+  .saveBtn {
+    background-color: rgba(6, 60, 131, 0.75);
+    border: none;
+    color: #ffffff; 
+  }
+  
+  .saveBtn:hover {
+    background-color: rgb(19, 113, 236);
+  }
+  footer {
+    color:  #476b8d;
+    background-color:rgb(45, 48, 51);
+    padding: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 5px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
