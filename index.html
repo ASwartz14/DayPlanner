@@ -12,12 +12,14 @@
   </head>
 
   <body>
+    <!-- Bootstrap jumbotron and lead class that came in the "develop" file-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDT" class="lead"></p>
+      <p id="currentDay" class="lead"></p>
       <hr>
     </header>
+    <!-- container given in "develop file" and time blocks for responsiveness to work nice -->
     <div class="container">
       <div id="8" class="row task-info">
         <div class="col-1 hour my-auto">8:00am</div>
@@ -90,6 +92,15 @@
         </button>
       </div>
     </div>
+    <br>
+    <br>
+    <!-- Bootstrap Clear Button -->
+    <div class = "col-1 ml-auto">
+       <button type="button" class="btn btn-danger"id="clear-button">
+          Clear Schedule
+       </button>
+    </div>
+    <!-- my sticky footer from bootstrap I've modified for my projects -->
     <footer class="footer">
         <div class="container">
           <span class="text-muted">UW Bootcamp Student Designed Quiz .</span>

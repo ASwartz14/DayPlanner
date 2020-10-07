@@ -69,8 +69,9 @@ body {
   .saveBtn:hover {
     background-color: rgb(19, 113, 236);
   }
+  
   footer {
-    color:  #476b8d;
+    color:  #48555c;
     background-color:rgb(45, 48, 51);
     padding: 10px;
     text-align: center;
